@@ -5,7 +5,7 @@ int min_value = 544;
 int max_value = 2400;
 
 void setup() {
-  Serial.begin(9600); //시리얼 모니터 사용 고고
+  Serial.begin(9600); 
   Serial.println("Servo value = ?");
   
   servo.attach(servo_Pin, min_value, max_value);
